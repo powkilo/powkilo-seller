@@ -1,6 +1,7 @@
 /* Empty. Add your own CSS if you like */
 td-cards {
   display: block;
+  background-color: white;
 }
 
 td-card {

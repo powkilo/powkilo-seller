@@ -40,9 +40,11 @@ angular.module('starter.controllers', [])
 .controller('CardsCtrl', function($scope, TDCardDelegate) {
   console.log('CARDS CTRL');
   var cardTypes = [
-    { image: 'https://pbs.twimg.com/profile_images/546942133496995840/k7JAxvgq.jpeg' },
-    { image: 'https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png' },
-    { image: 'https://pbs.twimg.com/profile_images/491995398135767040/ie2Z_V6e.jpeg' },
+    { image: 'img/bat.jpeg' },
+    { image: 'img/chessset.jpg' },
+    { image: 'img/minisword.jpg' },
+    { image: 'img/knife.jpg' },
+    { image: 'img/machine.jpg' },
   ];
 
   $scope.cards = Array.prototype.slice.call(cardTypes, 0);
