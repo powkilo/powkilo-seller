@@ -7,29 +7,34 @@ angular.module('starter.services', [])
   // Some fake testing data
   var orders = [{
     id: 0,
-    name: 'BatMobile',
-    lastText: 'Original BatMobile replica',
-    face: 'img/bat.jpeg'
+    name: 'Naveen Bansal',
+    lastText: 'Swiss Gear',
+    face: 'img/sc5.jpeg'
   }, {
     id: 1,
-    name: 'Knife',
-    lastText: 'Foldable chromiun knife with plantinum',
-    face: 'img/knife.jpg'
+    name: 'Abignail Verma',
+    lastText: 'Travel Kit',
+    face: 'img/sc4.jpeg'
   }, {
     id: 2,
-    name: 'Gold Mini Sword',
-    lastText: 'Ancient sword made of pure gold',
-    face: 'img/minisword.jpg'
+    name: 'Prakash Vinod',
+    lastText: 'Home Entertainment',
+    face: 'img/sc3.jpeg'
   }, {
     id: 3,
-    name: 'Rotatory Blade',
-    lastText: 'Rotatory blade for luxury cars',
-    face: 'img/machine.jpg'
+    name: 'Prokol Nisthan',
+    lastText: 'Home Decoration',
+    face: 'img/sc2.jpeg'
   }, {
     id: 4,
-    name: 'Checkers',
-    lastText: 'DC comics superhero checkers',
-    face: 'img/chessset.jpg'
+    name: 'Anuok Ipsal',
+    lastText: 'Vintage Collectibles',
+    face: 'img/sc1.jpeg'
+  },{
+    id: 5,
+    name: 'Animish Tripathi',
+    lastText: 'Consumer Electronic',
+    face: 'img/sc6.jpeg'
   }];
 
   return {
